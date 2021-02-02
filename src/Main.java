@@ -1,9 +1,10 @@
-import Codes.example3;
+import Codes.*;
 
 public class Main {
     public static void main(String[] args) {
-        example3 Example3 = new example3();
-        Example3.runExample();
+        example4 Example4 = new example4();
+
+        Example4.runExample();
     }
 }
 
