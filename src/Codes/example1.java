@@ -11,7 +11,7 @@ public class example1 {
     }
 
     public void runExample(){
-        System.out.println("La suma de ambos" +
+        System.out.println("La suma de ambos " +
                 "numeros es:" + result);
     }
 }
