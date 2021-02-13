@@ -26,7 +26,8 @@ public class Main {
                         "4.Comprobar si el numero es positivo o" +
                         "negativo \n" +
                         "5.Multiplicación de 2 numeros\n" +
-                        "6.Multiplicacion de n numeros");
+                        "6.Multiplicacion de n numeros\n" +
+                        "7.Calculadora con sentencia switch");
 
                 ValRef = input.nextLine().charAt(0);
                 switch (ValRef) {
@@ -59,6 +60,10 @@ public class Main {
                         //Ejemplo6
                         example6 E6 = new example6();
                         E6.runExample();
+                        break;
+                    case '7':
+                        example7 E7 = new example7();
+                        E7.runExample();
                         break;
                     default:
                         System.out.println("Dato no valido para el sistema");
