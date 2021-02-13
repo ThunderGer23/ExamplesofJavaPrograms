@@ -27,7 +27,8 @@ public class Main {
                         "negativo \n" +
                         "5.Multiplicación de 2 numeros\n" +
                         "6.Multiplicacion de n numeros\n" +
-                        "7.Calculadora con sentencia switch");
+                        "7.Calculadora con sentencia switch\n" +
+                        "8.Determinar si un numero es par o impar");
 
                 ValRef = input.nextLine().charAt(0);
                 switch (ValRef) {
@@ -64,6 +65,10 @@ public class Main {
                     case '7':
                         example7 E7 = new example7();
                         E7.runExample();
+                        break;
+                    case '8':
+                        example8 E8 = new example8();
+                        E8.runExample();
                         break;
                     default:
                         System.out.println("Dato no valido para el sistema");
